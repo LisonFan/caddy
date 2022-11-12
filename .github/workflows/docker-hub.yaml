@@ -1,6 +1,8 @@
 name: caddy-dcoker
 
-on: push
+on: 
+  push:
+  workflow_dispatch:
 
 jobs:
   push_to_registry:
